@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Luan Tran Minh
+    tagline: DevOps Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: minhluantran017@gmail.com
+    phone:
+    website: minhluantran017.github.io #do not add http://
+    linkedin: minhluantran017
+    github: minhluantran017
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: '9108796/minhluantran017' # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Vietnamese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Playing soccer
+        link:
+
+      - item: Reading books
+        link:
+
+      - item: Cheering with my friends
+        link:
+
+career-profile:
+    title: About me
+    maxim: "A man with enthusiasm & research interest"
+    summary: |
+      I'm Luan, from ho Chi Minh city. I have been in IT industry for 3 years.
+      For now, I'm an Cloud/DevOps Engineer.
+      People say that I'm a funny and sociable guy. I feel that's true :)
+
+education:
+    - degree: Bachelor of Electronics & Telecom. Engineering
+      university: Ho Chi Minh city University of Technology (HCMUT)
+      time: 2014 - 2018
+      details: "GPA: 8.2/10"
+
+experiences:
+    - role: DevOps Engineer
+      time: 2019 - Present
+      company: TMA Solutions, HCMC
+      details: |
+        Working with an outsourced California based start-up in Web Security domain.
+        Here I'm in the role of DevOps Engineer. I'm responsible for:
+          - Manage CI/CD pipelines on cloud/on-premise: AWS, VMWare vSphere, Docker, Kubernetes.
+          - Infrastructure administration: Jenkins, BitBucket, Artifactory, Grafana
+          - Conduct technical sharing sessions for other teams
+        
+        Besides, I also involve in new tech researches: DevSecOps, GitOps.
+
+        Toolsets and languages: : Bash, Python, Groovy, Packer, Ansible, Terraform, Vagrant, Jenkins,
+        JFrog Artifactory, Grafana, Prometheus.
+
+    - role: Automation Tester
+      time: 2018 - 2019
+      company: TMA Solutions, HCMC
+      details: |
+        Working with an outsourced North America based enterprise in Telecommunication domain.
+        Here I'm in the role of Automation Engineer. I'm responsible for:
+          - Perform manual/automation testing for cloud products (OpenStack, NFV)
+          - Writing automation test scripts, deploy and test the system on OpenStack
+          - Develop testing frameworks with Selenium Java, Postman API
+          - Manage CI pipelines on Jenkins
+          - Conduct technical sharing sessions for other teams
+        
+        Besides, I also involve in new tech research (NFV/SDN) and learn what is DevOps.
+
+        Toolsets and languages: : Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
+
+    - role: R&D Engineer
+      time: 2017 - 2018
+      company: iNext Technology JSC., HCMC
+      details: |
+        I have a part-time job here as a R&D engineering. My resposibilities include developing and
+        testing for medical system solution for Vietnam hospitals, managing system infrastructure, 
+        on-site installation at hospitals.
+
+        I mainly use Java for the product, beside some javascript and web development.
+
+    - role: R&D Intern
+      time: "2017"
+      company: Viettel Smart Center, HCMC
+      details: |
+        I experience my 6-month internship here as a R&D engineer. My focus is compiling the
+        integrated systems for IoT with Wifi, Zigbee.
+
+        This is the first time I use Linux and C programming in IoT, learn how to compile modules
+        using gcc, make and run my very first "Hello-world" Linux app.
+
+certifications:
+    title: Training and certifications
+    intro: |
+      I joined a lot of training classes on DevOps, Kubernetes, ISTQB Testing from TMA throughout
+      working. Besides, I also have some certifications to mark my milestones in the career path.
+    certs:
+      - title: AWS Certified - Developer Associate (AWS CDA) certification 
+        link: https://www.youracclaim.com/badges/a9f623a3-979d-4dea-b74d-9ca4cd678b77/public_url
+        icon: aws-certified-developer-associate.png
+        authors: Amazon Web Services
+        date: June 2020
+
+      - title: AWS Certified -  Solution Architect Associate (AWS CSAA) certification 
+        link: https://www.youracclaim.com/badges/dadaca2c-5f4d-4e3d-9111-e20330d323cf/public_url
+        icon: aws-certified-solutions-architect-associate.png
+        authors: Amazon Web Services
+        date: October 2019
+      
+      - title: AWS Certified -  Cloud Practitioner (AWS CCP) certification 
+        link: https://www.youracclaim.com/badges/41dfc810-8f22-462f-9c5e-2c7870d00481/public_url
+        icon: aws-certified-cloud-practitioner.png
+        authors: Amazon Web Services
+        date: June 2019
+
+publications:
+    title: Publications
+    intro: 
+    papers:
+      - title: "The 2018 International Conference on Advanced Computing and Applications"
+        link:
+        authors: 
+        conference: 
+
+      - title: "The 7th International Conference in Vietnam on the Development of Biomedical Engineering (IFBME)"
+        link:
+        authors: 
+        conference: 
+
+      - title: "The 2017 International Symposium on Electrical and Electronics engineering (ISEE)"
+        link:
+        authors: 
+        conference: 
+
+skills:
+    title: Skill-sets
+
+    toolset:
+      - name: Telecom concept
+        level: 80%
+
+      - name: Cloud environment (AWS, OpenStack)
+        level: 90%
+
+      - name: Containerization practices (Docker, K8s, Helm)
+        level: 70%
+
+      - name: Manual/Automation test (Selenium, Postman)
+        level: 80%
+
+      - name: Agile toolsets (JIRA, Confluence, Bitbucket)
+
+        level: 90%
+
+      - name: Scripting (Bash, Python, Groovy)
+        level: 80%
+
+      - name: Programming (Java, Matlab, Golang)
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
