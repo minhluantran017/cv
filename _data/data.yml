@@ -46,8 +46,8 @@ career-profile:
     title: About me
     maxim: "A man with enthusiasm & research interest"
     summary: |
-      I'm Luan, from ho Chi Minh city. I have been in IT industry for 3 years.
-      For now, I'm an Cloud/DevOps Engineer.
+      I'm Luan, from Ho Chi Minh city. I have been in IT industry for 4 years.
+      For now, I'm a DevOps Engineer.
       People say that I'm a funny and sociable guy. I feel that's true :)
 
 education:
@@ -62,50 +62,55 @@ experiences:
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced California based start-up in Web Security domain.
-        Here I'm in the role of DevOps Engineer. I'm responsible for:
-          - Manage CI/CD pipelines on cloud/on-premise: AWS, VMWare vSphere, Docker, Kubernetes.
-          - Infrastructure administration: Jenkins, BitBucket, Artifactory, Grafana
-          - Conduct technical sharing sessions for other teams
+        Here I'm in the role of DevOps Engineer, then DevOps Technical Prime. I'm responsible for:
+          - Write and manage CI/CD pipelines on cloud & on-premise environments: AWS, VMWare vSphere, Kubernetes
+          - Write and manage application deployment on above environments using Terraform, Ansible, Helm
+          - Implement monitoring solution for CI/CD pipelines and infrastructure
+          - Infrastructure administration: Jenkins, BitBucket, Artifactory, Prometheus, Grafana
+          - Refactor our customer's process with faster, more reliable CI/CD workflow from develop to release
+          - Involve in researching new technologies in new domains (DevSecOps, GitOps), new CI/CD tools to apply into our projects
+          - Conduct training, technical sharing sessions for internal team and other teams
         
-        Besides, I also involve in new tech researches: DevSecOps, GitOps.
+        Toolsets and languages: : Bash, Python, Groovy, Terraform, Packer, Ansible, Vagrant, Jenkins,
+        JFrog Artifactory, Bitbucket, Grafana, Prometheus.
 
-        Toolsets and languages: : Bash, Python, Groovy, Packer, Ansible, Terraform, Vagrant, Jenkins,
-        JFrog Artifactory, Grafana, Prometheus.
-
-    - role: Automation Tester
+    - role: Automation Engineer
       time: 2018 - 2019
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced North America based enterprise in Telecommunication domain.
-        Here I'm in the role of Automation Engineer. I'm responsible for:
+        Here I'm in the role of Automation Engineer and learn many things that leads me to DevOps domain. 
+        I'm responsible for:
           - Perform manual/automation testing for cloud products (OpenStack, NFV)
-          - Writing automation test scripts, deploy and test the system on OpenStack
-          - Develop testing frameworks with Selenium Java, Postman API
-          - Manage CI pipelines on Jenkins
-          - Conduct technical sharing sessions for other teams
+          - Writing automation test scripts, deploy and test the system on OpenStack cloud
+          - Develop and maintenance automation testing frameworks with Selenium Java, Postman API
+          - Write and manage CI pipelines on Jenkins for all testing phases (sanity, functional, performace, regression)
+          - Involve in new tech research (NFV/SDN) and start investing in Amazon Web Service
+          - Conduct technical sharing sessions for internal team and other teams
         
-        Besides, I also involve in new tech research (NFV/SDN) and learn what is DevOps.
-
-        Toolsets and languages: : Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
+        Toolsets and languages: Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
 
     - role: R&D Engineer
       time: 2017 - 2018
       company: iNext Technology JSC., HCMC
       details: |
-        I have a part-time job here as a R&D engineering. My resposibilities include developing and
-        testing for medical system solution for Vietnam hospitals, managing system infrastructure, 
-        on-site installation at hospitals.
+        I have a part-time job here - a young start-up - as a R&D engineering until my graduation.
+        My resposibilities include:
+          - Develop software for health-care solution for Vietnam hospitals
+          - Managing IT system infrastructure
+          - On-site installation at rural hospitals.
+          - Investigate and building demo system on Openstack and OpenShift cloud platform.
 
-        I mainly use Java for the product, beside some javascript and web development.
+        I mainly use Java for the product, beside little JavaScript, HTML, CSS for web development.
 
     - role: R&D Intern
       time: "2017"
       company: Viettel Smart Center, HCMC
       details: |
-        I experience my 6-month internship here as a R&D engineer. My focus is compiling the
-        integrated systems for IoT with Wifi, Zigbee.
+        I experience my internship period here as a R&D engineer. My focus is compiling the
+        integrated systems for IoT with Wifi and Zigbee.
 
-        This is the first time I use Linux and C programming in IoT, learn how to compile modules
+        This is the first time I use Linux and love it, learn how to compile modules
         using gcc, make and run my very first "Hello-world" Linux app.
 
 certifications:
@@ -158,23 +163,25 @@ skills:
       - name: Telecom concept
         level: 80%
 
-      - name: Cloud environment (AWS, OpenStack)
+      - name: Cloud/on-premise (AWS, OpenStack, VMWare, KVM)
         level: 90%
 
-      - name: Containerization practices (Docker, K8s, Helm)
+      - name: Containerization practices (Docker, Kubernetes)
         level: 70%
 
-      - name: Manual/Automation test (Selenium, Postman)
+      - name: DevOps toolsets (Terraform, Packer, Ansible, Vagrant)
         level: 80%
 
-      - name: Agile toolsets (JIRA, Confluence, Bitbucket)
-
+      - name: Agile toolsets (Jenkins, JIRA, Confluence, Bitbucket)
         level: 90%
 
-      - name: Scripting (Bash, Python, Groovy)
+      - name: Manual/automation test (Selenium, Postman)
         level: 80%
 
-      - name: Programming (Java, Matlab, Golang)
+      - name: Scripting (Bash, Python, Groovy, HCL)
+        level: 80%
+
+      - name: Programming (Java, Matlab)
         level: 60%
 
 footer: >
