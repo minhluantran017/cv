@@ -1,0 +1,34 @@
+{% assign codes = site.data.data.codes %}
+{% if codes %}
+<section class="section codes-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ codes.title }}
+  </h2>
+
+  {% if codes.intro %}
+  <div class="intro">
+    {{ codes.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+  <table>
+    {% for code in codes.repos %}
+      <tr>
+        <td style="width:48px"><img class="avatar" src="{{ site.baseurl }}/assets/images/{{ code.logo }}" alt="repo logo" /></td>
+        <td>
+          <div class="item">
+            <div><a style="color: teal;" href="{{ code.link }}"><b>{{ code.name }}</b></a></div>
+            <div class="code-description">{{ code.description }}</div>
+            <br>
+          </div>
+        </td>
+      </tr>
+      <!--//item-->
+    {% endfor %}
+  </table>
+</section><!--//section-->
+{% endif %}

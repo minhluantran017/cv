@@ -62,40 +62,49 @@ experiences:
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced California based start-up in Web Security domain.
-        Here I'm in the role of DevOps Engineer, then DevOps Technical Prime. I'm responsible for:
-          - Write and manage CI/CD pipelines on cloud & on-premise environments: AWS, VMWare vSphere, Kubernetes
-          - Write and manage application deployment on above environments using Terraform, Ansible, Helm
+        Here I'm in the role of DevOps Engineer, then DevOps Technical Prime in a 6-member team. 
+        I'm responsible for:
+          - Write and manage CI/CD pipelines on cloud & on-premise environments: AWS, VMWare vSphere,
+          Kubernetes, KVM
+          - Write and manage application deployment on above environments using Terraform, Terragrunt,
+          Ansible, Helm
           - Implement monitoring solution for CI/CD pipelines and infrastructure
           - Infrastructure administration: Jenkins, BitBucket, Artifactory, Prometheus, Grafana
-          - Refactor our customer's process with faster, more reliable CI/CD workflow from develop to release
-          - Involve in researching new technologies in new domains (DevSecOps, GitOps), new CI/CD tools to apply into our projects
-          - Conduct training, technical sharing sessions for internal team and other teams
+          - Support Engineering teams (Dev, QA) for Jenkins build issues and infrastructure issues
+          - Refactor our customer's process with faster, more reliable CI/CD workflow from development 
+          to product release
+          - Join department's R&D team to research new technologies in new domains (GitOps, Cloud Migration),
+          new CI/CD tools (GitHub Actions, ArgoCD, Drone), conduct PoC to apply into other projects
+          - Conduct knowledge transfer, technical sharing sessions for internal team and other teams
+          for product knowledge and new technologies
         
-        Toolsets and languages: : Bash, Python, Groovy, Terraform, Packer, Ansible, Vagrant, Jenkins,
-        JFrog Artifactory, Bitbucket, Grafana, Prometheus.
+        I've been working with scripting (Bash, Python, Groovy), build & deployment tools (Terraform, Terragrunt,
+        Packer, Ansible, Vagrant), infra administration (Jenkins, JFrog Artifactory, Bitbucket), monitoring
+        tools (Grafana, Prometheus), cloud-native technologies (Traefik, ArgoCD).
 
     - role: Automation Engineer
       time: 2018 - 2019
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced North America based enterprise in Telecommunication domain.
-        Here I'm in the role of Automation Engineer and learn many things that leads me to DevOps domain. 
-        I'm responsible for:
-          - Perform manual/automation testing for cloud products (OpenStack, NFV)
-          - Writing automation test scripts, deploy and test the system on OpenStack cloud
+        Here I was in the role of Automation Engineer and learned many things that leads me to DevOps domain. 
+        I was responsible for:
           - Develop and maintenance automation testing frameworks with Selenium Java, Postman API
-          - Write and manage CI pipelines on Jenkins for all testing phases (sanity, functional, performace, regression)
-          - Involve in new tech research (NFV/SDN) and start investing in Amazon Web Service
+          - Writing automation test scripts, deploy and test the system on OpenStack private cloud
+          - Write and manage CI pipelines on Jenkins for all testing phases (sanity, functional, 
+          performace, regression)
+          - Perform manual/automation testing for cloud products (OpenStack, NFV)
+          - Involve in new tech research (DevOps, public clouds) and start investing in Amazon Web Service
           - Conduct technical sharing sessions for internal team and other teams
         
-        Toolsets and languages: Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
+        Toolsets and languages I've worked here: Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
 
     - role: R&D Engineer
       time: 2017 - 2018
       company: iNext Technology JSC., HCMC
       details: |
-        I have a part-time job here - a young start-up - as a R&D engineering until my graduation.
-        My resposibilities include:
+        I had a part-time job here - a young start-up - as a R&D engineering until my graduation.
+        My resposibilities included:
           - Develop software for health-care solution for Vietnam hospitals
           - Managing IT system infrastructure
           - On-site installation at rural hospitals.
@@ -107,60 +116,89 @@ experiences:
       time: "2017"
       company: Viettel Smart Center, HCMC
       details: |
-        I experience my internship period here as a R&D engineer. My focus is compiling the
+        I experienced my internship period here as a R&D engineer. My focus was compiling the
         integrated systems for IoT with Wifi and Zigbee.
 
-        This is the first time I use Linux and love it, learn how to compile modules
+        This was the first time I use Linux and love it, learn how to compile modules
         using gcc, make and run my very first "Hello-world" Linux app.
 
 certifications:
     title: Training and certifications
     intro: |
-      I joined a lot of training classes on DevOps, Kubernetes, ISTQB Testing from TMA throughout
-      working. Besides, I also have some certifications to mark my milestones in the career path.
+      I joined a lot of training classes from DevOps, Kubernetes, to ISTQB Testing in TMA throughout
+      working. Besides, I also have some certifications to mark my milestones in my career path.
     certs:
       - title: AWS Certified - Developer Associate (AWS CDA) certification 
         link: https://www.youracclaim.com/badges/a9f623a3-979d-4dea-b74d-9ca4cd678b77/public_url
         icon: aws-certified-developer-associate.png
         authors: Amazon Web Services
-        date: June 2020
+        date: 2020
 
       - title: AWS Certified -  Solution Architect Associate (AWS CSAA) certification 
         link: https://www.youracclaim.com/badges/dadaca2c-5f4d-4e3d-9111-e20330d323cf/public_url
         icon: aws-certified-solutions-architect-associate.png
         authors: Amazon Web Services
-        date: October 2019
+        date: 2019
       
       - title: AWS Certified -  Cloud Practitioner (AWS CCP) certification 
         link: https://www.youracclaim.com/badges/41dfc810-8f22-462f-9c5e-2c7870d00481/public_url
         icon: aws-certified-cloud-practitioner.png
         authors: Amazon Web Services
-        date: June 2019
+        date: 2019
 
-publications:
-    title: Publications
-    intro: 
-    papers:
-      - title: "The 2018 International Conference on Advanced Computing and Applications"
-        link:
-        authors: 
-        conference: 
+codes:
+    title: Codes
+    intro: |
+      Not having much coding skill but I still spend some of my freetime on improving coding skill 
+      (Python, Java), getting started with new language (Golang). The reason is that I have to support
+      many teams with different languages and tools.
 
-      - title: "The 7th International Conference in Vietnam on the Development of Biomedical Engineering (IFBME)"
-        link:
-        authors: 
-        conference: 
+      I have some repositories on GitHub for demo/training purpose:
+    repos:
+      - name: demo-springboot
+        link: https://github.com/minhluantran017/demo-springboot
+        description: A demo Java Springboot CI/CD workflow
+        logo: springboot.png
 
-      - title: "The 2017 International Symposium on Electrical and Electronics engineering (ISEE)"
-        link:
-        authors: 
-        conference: 
+      - name: simple-microservices
+        link: https://github.com/minhluantran017/simple-microservices
+        description: A simple microservices project with multiple languages
+        logo: microservices.png
+      
+      - name: demo-terraform
+        link: https://github.com/minhluantran017/demo-terraform
+        description: A demo Terraform usage and templates
+        logo: terraform.png
+
+      - name: demo-packer
+        link: https://github.com/minhluantran017/demo-packer
+        description: A demo Packer usage and templates
+        logo: packer.png
+
+# publications:
+#     title: Publications
+#     intro: 
+#     papers:
+#       - title: "The 2018 International Conference on Advanced Computing and Applications"
+#         link:
+#         authors: 
+#         conference: 
+
+#       - title: "The 2018 International Conference in Vietnam on the Development of Biomedical Engineering (IFBME)"
+#         link:
+#         authors: 
+#         conference: 
+
+#       - title: "The 2017 International Symposium on Electrical and Electronics engineering (ISEE)"
+#         link:
+#         authors: 
+#         conference: 
 
 skills:
-    title: Skill-sets
+    title: Skillsets
 
     toolset:
-      - name: Telecom concept
+      - name: Telecommunication concept
         level: 80%
 
       - name: Cloud/on-premise (AWS, OpenStack, VMWare, KVM)
@@ -178,11 +216,11 @@ skills:
       - name: Manual/automation test (Selenium, Postman)
         level: 80%
 
-      - name: Scripting (Bash, Python, Groovy, HCL)
+      - name: Scripting (Bash, Groovy, Python, HCL)
         level: 80%
 
       - name: Programming (Java, Matlab)
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Have a nice day <i class="fas fa-heart"></i>
