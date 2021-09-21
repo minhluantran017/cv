@@ -51,53 +51,54 @@ career-profile:
       People say that I'm a funny and sociable guy. I feel that's true :)
 
 education:
-    - degree: Bachelor of Electronics & Telecom. Engineering
+    - degree: Bachelor of Electronics & Telecommunications Engineering
       university: Ho Chi Minh city University of Technology (HCMUT)
       time: 2014 - 2018
       details: "GPA: 8.2/10"
 
 experiences:
-    - role: DevOps Engineer
+    - role: Senior DevOps Engineer
       time: 2019 - Present
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced California based start-up in Web Security domain.
-        Here I'm in the role of DevOps Engineer, then DevOps Technical Prime in a 6-member team. 
+        Here I'm in the role of DevOps Engineer, then DevOps Technical Prime.
         I'm responsible for:
-          - Write and manage CI/CD pipelines on cloud & on-premise environments: AWS, VMWare vSphere,
-          Kubernetes, KVM
-          - Write and manage application deployment on above environments using Terraform, Terragrunt,
-          Ansible, Helm
-          - Implement monitoring solution for CI/CD pipelines and infrastructure
+          - Developing and managing CI/CD pipelines on cloud & on-premise environments (AWS, VMWare vSphere,
+          Kubernetes (EKS), KVM) using Jenkins
+          - Developing and managing application deployment scripts on above environments using Terraform,
+          Terragrunt, Ansible, Helm
+          - Designing and implementing monitoring solution for CI/CD pipelines and infrastructure using
+          Prometheus, Grafana, InfluxDB
           - Infrastructure administration: Jenkins, BitBucket, Artifactory, Prometheus, Grafana
-          - Support Engineering teams (Dev, QA) for Jenkins build issues and infrastructure issues
-          - Refactor our customer's process with faster, more reliable CI/CD workflow from development 
+          - Supporting Engineering teams (Dev, QA) for Jenkins build issues and infrastructure issues
+          - Refactoring our customer's process with faster, more reliable CI/CD workflow from development 
           to product release
-          - Join department's R&D team to research new technologies in new domains (GitOps, Cloud Migration),
-          new CI/CD tools (GitHub Actions, ArgoCD, Drone), conduct PoC to apply into other projects
-          - Conduct knowledge transfer, technical sharing sessions for internal team and other teams
-          for product knowledge and new technologies
+          - Ensuring daily tasks' knowledge and technical guidance/support/code reviews for team's members
+          (US + Vietnam)
+          - Joining department's R&D team to research new technologies in new domains (GitOps, Cloud Migration),
+          new CI/CD tools (GitHub Actions, ArgoCD, BitBucket pipelines), conduct PoC to apply into other projects
+          - Conducting knowledge transfer, technical sharing sessions for other teams about product
+          knowledge and new technologies
         
-        I've been working with scripting (Bash, Python, Groovy), build & deployment tools (Terraform, Terragrunt,
-        Packer, Ansible, Vagrant), infra administration (Jenkins, JFrog Artifactory, Bitbucket), monitoring
-        tools (Grafana, Prometheus), cloud-native technologies (Traefik, ArgoCD).
+        In this project I have been learning lots of things, and having opportunities to show my skillset and 
+        ramp up my team from 2 to 10 members just in 2 years.
 
-    - role: Automation Engineer
+    - role: QA Automation Engineer
       time: 2018 - 2019
       company: TMA Solutions, HCMC
       details: |
         Working with an outsourced North America based enterprise in Telecommunication domain.
-        Here I was in the role of Automation Engineer and learned many things that leads me to DevOps domain. 
-        I was responsible for:
-          - Develop and maintenance automation testing frameworks with Selenium Java, Postman API
+        Here I was in the role of Automation Engineer. I was responsible for:
+          - Developing and maintaining automation testing frameworks with Selenium Java, Postman API
           - Writing automation test scripts, deploy and test the system on OpenStack private cloud
-          - Write and manage CI pipelines on Jenkins for all testing phases (sanity, functional, 
+          - Writing and managing CI pipelines on Jenkins for all testing phases (sanity, functional, 
           performace, regression)
-          - Perform manual/automation testing for cloud products (OpenStack, NFV)
-          - Involve in new tech research (DevOps, public clouds) and start investing in Amazon Web Service
-          - Conduct technical sharing sessions for internal team and other teams
+          - Performing manual/automation testing for cloud products (OpenStack, NFV)
+          - Involving in new tech research (DevOps, public clouds) and start investing in Amazon Web Service
+          - Conducting technical sharing sessions for internal team and other teams
         
-        Toolsets and languages I've worked here: Java, Bash, Jenkins, JFrog Artifactory, Docker, Selenium, Postman.
+        This is my first project after graduation, in which I was led by great mentors and learned many things that leads me to DevOps domain.
 
     - role: R&D Engineer
       time: 2017 - 2018
@@ -105,12 +106,12 @@ experiences:
       details: |
         I had a part-time job here - a young start-up - as a R&D engineering until my graduation.
         My resposibilities included:
-          - Develop software for health-care solution for Vietnam hospitals
-          - Managing IT system infrastructure
+          - Developing software for health-care solution for Vietnam hospitals
+          - Managing infrastructure (hardware servers)
           - On-site installation at rural hospitals.
-          - Investigate and building demo system on Openstack and OpenShift cloud platform.
+          - Investigating and building demo system on Openstack and OpenShift cloud platform.
 
-        I mainly use Java for the product, beside little JavaScript, HTML, CSS for web development.
+        I mainly use Java for the products, beside a little JavaScript, HTML, CSS for web development.
 
     - role: R&D Intern
       time: "2017"
@@ -126,7 +127,7 @@ certifications:
     title: Training and certifications
     intro: |
       I joined a lot of training classes from DevOps, Kubernetes, to ISTQB Testing in TMA throughout
-      working. Besides, I also have some certifications to mark my milestones in my career path.
+      working. Besides, I also have some certifications to mark the milestones in my career path.
     certs:
       - title: AWS Certified - Developer Associate (AWS CDA) certification 
         link: https://www.youracclaim.com/badges/a9f623a3-979d-4dea-b74d-9ca4cd678b77/public_url
@@ -209,9 +210,6 @@ skills:
 
       - name: DevOps toolsets (Terraform, Packer, Ansible, Vagrant)
         level: 80%
-
-      - name: Agile toolsets (Jenkins, JIRA, Confluence, Bitbucket)
-        level: 90%
 
       - name: Manual/automation test (Selenium, Postman)
         level: 80%
