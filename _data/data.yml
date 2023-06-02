@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Luan Tran Minh
-    tagline: DevOps Engineer
+    tagline: Senior/Lead DevOps
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -46,7 +46,7 @@ career-profile:
     title: About me
     maxim: "A man with enthusiasm & research interest"
     summary: |
-      I'm Luan, from Ho Chi Minh city. I have been in IT industry for 4 years.
+      I'm Luan, from Vietnam. I have been in IT industry for 6 years.
       For now, I'm a DevOps Engineer.
       People say that I'm a funny and sociable guy. I feel that's true :)
 
@@ -57,14 +57,14 @@ education:
       details: "GPA: 8.2/10"
 
 experiences:
-    - role: Senior DevOps Engineer
+    - role: Senior DevOps Lead
       time: 2019 - Present
       company: TMA Solutions, HCMC
       details: |
-        Working with an outsourced California based start-up in Web Security domain.
+        Working with a start-up in Security domain.
         Here I'm in the role of DevOps Engineer, then DevOps Technical Prime.
         I'm responsible for:
-          - Developing and managing CI/CD pipelines on cloud & on-premise environments (AWS, VMWare vSphere,
+          - Developing and managing CI/CD pipelines on cloud & on-premise environments (AWS, Azure, VMWare vSphere,
           Kubernetes (EKS), KVM) using Jenkins
           - Developing and managing application deployment scripts on above environments using Terraform,
           Terragrunt, Ansible, Helm
@@ -75,14 +75,21 @@ experiences:
           - Refactoring our customer's process with faster, more reliable CI/CD workflow from development 
           to product release
           - Ensuring daily tasks' knowledge and technical guidance/support/code reviews for team's members
-          (US + Vietnam)
-          - Joining department's R&D team to research new technologies in new domains (GitOps, Cloud Migration),
+          (US, UK, India, Singapore, Vietnam)
+
+    - role: DevOps Solution Consultant
+      time: 2021 - Present
+      company: TMA Solutions, HCMC
+      details: |
+        Along with the Leader role in the main project above, I also work as a SME/Consultant for Cloud/DevOps in various domains and solutions:
+          - CI/CD pipelines migration/development/maintenance solution between Jenkins, TeamCity, Gitlab CI
+          - Cloud migration solution (On-prem to AWS, AWS to AWS)
+          - Host/component/endpoint-based application monitoring system design and implementation solution using Prometheus, Telegraf, InfluxDB, Monit, Grafana)
+          - Cloud/on-prem infrastructure setup and maintenance solution utilizing Infrastructure-as-Code, Configuration-as-Code frameworks
+          - Research new technologies in new domains (GitOps, Cloud Migration, 5G, DevSecOps),
           new CI/CD tools (GitHub Actions, ArgoCD, BitBucket pipelines), conduct PoC to apply into other projects
-          - Conducting knowledge transfer, technical sharing sessions for other teams about product
-          knowledge and new technologies
-        
-        In this project I have been learning lots of things, and having opportunities to show my skillset and 
-        ramp up my team from 2 to 10 members just in 2 years.
+          - Conducting knowledge transfer, technical sharing, training sessions for other teams and company-wide
+
 
     - role: QA Automation Engineer
       time: 2018 - 2019
@@ -126,23 +133,29 @@ experiences:
 certifications:
     title: Training and certifications
     intro: |
-      I joined a lot of training classes from DevOps, Kubernetes, to ISTQB Testing in TMA throughout
+      I joined a lot of training classes from DevOps, Kubernetes, ISTQB to Project Management in TMA throughout
       working. Besides, I also have some certifications to mark the milestones in my career path.
     certs:
+      - title: Certified Kubernetes Application Developer
+        link: https://www.credly.com/badges/fab9906e-0d29-49b5-91ea-d08f49175a1c/public_url
+        icon: certified-kubernetes-application-developer.png
+        authors: Linux Foundation
+        date: 2023
+
       - title: AWS Certified - Developer Associate (AWS CDA) certification 
-        link: https://www.youracclaim.com/badges/a9f623a3-979d-4dea-b74d-9ca4cd678b77/public_url
+        link: https://www.credly.com/badges/a9f623a3-979d-4dea-b74d-9ca4cd678b77/public_url
         icon: aws-certified-developer-associate.png
         authors: Amazon Web Services
         date: 2020
 
       - title: AWS Certified -  Solution Architect Associate (AWS CSAA) certification 
-        link: https://www.youracclaim.com/badges/dadaca2c-5f4d-4e3d-9111-e20330d323cf/public_url
+        link: https://www.credly.com/badges/dadaca2c-5f4d-4e3d-9111-e20330d323cf/public_url
         icon: aws-certified-solutions-architect-associate.png
         authors: Amazon Web Services
         date: 2019
       
       - title: AWS Certified -  Cloud Practitioner (AWS CCP) certification 
-        link: https://www.youracclaim.com/badges/41dfc810-8f22-462f-9c5e-2c7870d00481/public_url
+        link: https://www.credly.com/badges/41dfc810-8f22-462f-9c5e-2c7870d00481/public_url
         icon: aws-certified-cloud-practitioner.png
         authors: Amazon Web Services
         date: 2019
@@ -151,8 +164,8 @@ codes:
     title: Codes
     intro: |
       Not having much coding skill but I still spend some of my freetime on improving coding skill 
-      (Python, Java), getting started with new language (Golang). The reason is that I have to support
-      many teams with different languages and tools.
+      (Python, Java, Golang). The reason is that I have to support
+      many teams with different languages and tools (Python, NodeJS, Angular, Java, Golang, C#)
 
       I have some repositories on GitHub for demo/training purpose:
     repos:
@@ -171,9 +184,9 @@ codes:
         description: A demo Terraform usage and templates
         logo: terraform.png
 
-      - name: demo-packer
-        link: https://github.com/minhluantran017/demo-packer
-        description: A demo Packer usage and templates
+      - name: jenkins-cli
+        link: https://github.com/minhluantran017/jenkins-cli
+        description: A small utility tool for my daily work
         logo: packer.png
 
 # publications:
@@ -199,26 +212,23 @@ skills:
     title: Skillsets
 
     toolset:
-      - name: Telecommunication concept
-        level: 80%
-
       - name: Cloud/on-premise (AWS, OpenStack, VMWare, KVM)
         level: 90%
 
-      - name: Containerization practices (Docker, Kubernetes)
+      - name: Containerization (Docker, Kubernetes)
+        level: 80%
+
+      - name: CI/CD/DevOps/DevSecOps (Jenkins, Gitlab CI, Artifactory, SonarQube)
+        level: 90%
+
+      - name: Infrastructure-as-Code (Terraform, Packer, Ansible)
+        level: 90%
+
+      - name: Monitoring & Observability (Prometheus, Telegraf, monit, Grafana, Loki)
+        level: 80%
+
+      - name: Scripting & programming (Bash, Groovy, Python, Make, Java, Golang)
         level: 70%
-
-      - name: DevOps toolsets (Terraform, Packer, Ansible, Vagrant)
-        level: 80%
-
-      - name: Manual/automation test (Selenium, Postman)
-        level: 80%
-
-      - name: Scripting (Bash, Groovy, Python, HCL)
-        level: 80%
-
-      - name: Programming (Java, Matlab)
-        level: 60%
 
 footer: >
     Have a nice day <i class="fas fa-heart"></i>
